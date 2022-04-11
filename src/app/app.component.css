@@ -1,0 +1,28 @@
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    height: 100%;
+
+
+
+
+}
+
+app-user-container {
+    flex: 0 0 calc(50% - 1rem);
+    background-color: #DAE8FC;
+    border: 1px solid rgb(77, 77, 232);
+}
+
+app-order-container {
+    flex: 0 0 50%;
+    background-color: #F8CECC;
+    border: 1px solid #eb665f;
+
+}
